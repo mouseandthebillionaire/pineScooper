@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Alerts
+  - Active Window
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Desktop Items
+  - Wallpaper
+  m_SortingLayers:
+  - name: Wallpaper
+    uniqueID: 1237677439
+    locked: 0
+  - name: Desktop Items
+    uniqueID: 2433784785
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Mini Game
+    uniqueID: 750664071
+    locked: 0
+  - name: Typing Windows
+    uniqueID: 3627041283
+    locked: 0
+  - name: Alerts
+    uniqueID: 4272857333
+    locked: 0
+  - name: UI
+    uniqueID: 4102803641
+    locked: 0
