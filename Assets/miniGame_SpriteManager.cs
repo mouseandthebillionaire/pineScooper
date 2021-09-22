@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class miniGame_AudioManager : MonoBehaviour
+public class miniGame_SpriteManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

@@ -48,7 +48,7 @@ public class miniGame : MonoBehaviour {
             if (elem.poop)
                 elem.loadTexture(0);
 		cb.LoadCat(2);
-		miniGame_audio.S.GameOver();
+		miniGame_AudioManager.S.GameOverSound();
 		gameOver = true;
     }
 
