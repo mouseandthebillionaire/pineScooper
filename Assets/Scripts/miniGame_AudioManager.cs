@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class miniGame_AudioManager : MonoBehaviour {
     public AudioSource whoopie;
+    public AudioMixer mainMixer;
+    public AudioMixerSnapshot[] snaps;
 
     public AudioReverbFilter reverb;
 
@@ -27,7 +30,12 @@ public class miniGame_AudioManager : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Alpha1)) {
+            snaps[0].TransitionTo(3f);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
+            snaps[1].TransitionTo(1f);
+        }
     }
 
     public void GameOverSound() {
